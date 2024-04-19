@@ -1,1 +1,648 @@
-/* место для вашего кода */
+.header {
+  position: absolute;
+  width: 1052px;
+  height: 105px;
+  left: 24px;
+  right: 24px;
+  top: 92px;
+  bottom: 2831px;
+}
+
+.navbar {
+  display: flex;
+  margin: auto;
+  column-gap: 25px;
+  list-style-type: circle;
+  position: absolute;
+  width: 391.48px;
+  height: 22px;
+  left: 26.52px;
+  right: 634px;
+  top: 44px;
+  bottom: 39px;
+}
+
+.li::marker {
+  /* list_marker */
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left: 107px;
+  top: 52px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.li1 {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.li_0 {
+  list-style-type: none;
+}
+
+.li2_3 {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+
+.logo {
+  /* Vector */
+  position: absolute;
+  width: 129.11px;
+  height: 104.65px;
+  left: 463.03px;
+  top: 1.16px;
+  bottom: -0.81px;
+}
+
+.contacts {
+  position: absolute;
+  width: 240.52px;
+  height: 98px;
+  left: 786px;
+  right: 25.48px;
+  top: 5px;
+  bottom: 2px;
+}
+
+.number {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  letter-spacing: 1%;
+  text-align: left;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.email {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  letter-spacing: 1%;
+  text-align: left;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.address {
+    color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.3px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+
+}
+
+.jambotron {
+  position: absolute;
+  width: 1100px;
+  height: 757px;
+  left: 0;
+  right: 0;
+  top: 296px;
+  bottom: 1975px;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.overlay {
+/* overlay */
+position: absolute;
+width:100%;
+height: 100%;
+background: rgb(0, 0, 0);
+opacity: 0.6;
+}
+
+.span1 {
+  position: absolute;
+  width: 316px;
+  height: 115px;
+  left: 50px;
+  right: 634px;
+  top: 165px;
+  bottom: 240px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.span2 {
+  position: absolute;
+  width: 316px;
+  height: 115px;
+  left: 170px;
+  right: 634px;
+  top: 165px;
+  bottom: 240px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.span3 {
+  /* тебе */
+  position: absolute;
+  width: 369px;
+  height: 100px;
+  left: 336px;
+  right: 295px;
+  top: 300px;
+  bottom: -45px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.span4 {
+  /* е */
+  position: absolute;
+  width: 369px;
+  height: 100px;
+  left: 336px;
+  right: 295px;
+  top: 300px;
+  bottom: -45px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.span5 {
+  position: absolute;
+  width: 417px;
+  height: 100px;
+  left: 633px;
+  right: -50px;
+  top: 420px;
+  bottom: -165px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.span6 {
+  position: absolute;
+  width: 417px;
+  height: 100px;
+  left: 660px;
+  right: -50px;
+  top: 420px;
+  bottom: -165px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 30px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.img_flower {
+  position: absolute;
+  width: 1100px;
+  height: 757px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.section {
+  display: flex;
+  position: absolute;
+  width: 1052px;
+  height: 692px;
+  left: 24px;
+  right: 24px;
+  top: 1229px;
+  bottom: 1107px;
+}
+
+.lots {
+  position: absolute;
+  width: 121px;
+  height: 47px;
+  left: 40px;
+  right: 891px;
+  top: 0;
+  bottom: 645px;
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.a1 {
+  position: absolute;
+  width: 334px;
+  height: 563px;
+  left: 0;
+  right: 0;
+  top: 74px;
+  bottom: -74px;
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url(/images/card-lot-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.a2 {
+  position: absolute;
+  width: 334px;
+  height: 563px;
+  left: 359px;
+  right: -359px;
+  top: 74px;
+  bottom: -74px;
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url(/images/card-lot-02.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.a3 {
+  position: absolute;
+  width: 334px;
+  height: 563px;
+  left: 718px;
+  right: -718px;
+  top: 74px;
+  bottom: -74px;
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url(/images/card-lot-03.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.lot_1 {
+  position: absolute;
+  width: 254px;
+  height: 82px;
+  left: 40px;
+  right: 40px;
+  top: 51px;
+  bottom: 356px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.lot_1_down {
+  position: absolute;
+  width: 254px;
+  height: 144px;
+  left: 40px;
+  right: 40px;
+  top: 371px;
+  bottom: -26px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.lot_2 {
+    position: absolute;
+width: 254px;
+height: 360px;
+left: 40px;
+right: 40px;
+top: 51px;
+bottom: 354px;
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 22px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+text-transform: uppercase;
+z-index: 1;
+}
+
+.lot_2_down {
+    position: absolute;
+    width: 254px;
+    height: 360px;
+    left: 40px;
+    right: 40px;
+    top: 155px;
+    bottom: 48px;
+    color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+z-index: 1;
+}
+
+.lot_3 {
+    position: absolute;
+    width: 254px;
+    height: 110px;
+    left: 40px;
+    right: 40px;
+    top: 51px;
+    bottom: 402px;
+    color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 22px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+text-transform: uppercase;
+z-index: 1;
+
+}
+
+.lot_3_down {
+    position: absolute;
+    width: 254px;
+    height: 264px;
+    left: 40px;
+    right: 40px;
+    top: 251px;
+    bottom: 48px;
+    color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 120%;
+
+text-align: left;
+z-index: 1;
+
+}
+
+.about {
+
+
+position: absolute;
+display: flex;
+width: 1052px;
+height: 595px;
+left: 24px;
+right: 24px;
+top: 2067px;
+bottom: 366px;
+
+}
+
+.elipse {
+
+    
+position: absolute;
+width: 240px;
+height: 240px;
+left: 47px;
+right: 0;
+top: 35px;
+bottom: 0;
+background-color: black;
+border-radius: 50%;
+
+
+}
+
+.lg {
+        position: absolute;
+width: 141.54px;
+height: 112.55px;
+left: 50.89px;
+right: 47.56px;
+top: 65.25px;
+bottom: 62.2px;
+
+}
+
+.lg2{
+
+position: absolute;
+width: 693px;
+height: 449px;
+left: 359px;
+right: 0;
+top: 133px;
+bottom: 0;
+
+}
+
+.h2ab {
+
+position: absolute;
+width: 291px;
+height: 47px;
+left: 0;
+right: 402px;
+top: 3px;
+bottom: 412px;
+color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+
+}
+
+.pab {
+    position: absolute;
+    width: 688px;
+    height: 120px;
+    left: 0;
+    right: 5px;
+    top: 150px;
+    bottom: 205px;
+    color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+
+.pab2 {
+    position: absolute;
+width: 693px;
+height: 168px;
+left: 0;
+right: 0;
+top: 294px;
+bottom: 0;
+color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+address {
+all: initial;
+
+}
+
+.footer {
+
+position: absolute;
+width: 1000px;
+height: 98px;
+left: 50px;
+right: 50px;
+top: 2842px;
+bottom: 88px;
+
+}
+
+.contacts2 {
+
+position: absolute;
+width: 240.52px;
+height: 98px;
+
+}
+
+.navbar2 {
+    
+position: absolute;
+width: 149px;
+height: 64px;
+left: 426px;
+right: 425px;
+top: 1px;
+bottom: 33px;
+list-style-type: none;
+text-align: center;
+}
+
+.socials {
+
+position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+column-gap: 40px;
+width: 240px;
+height: 48px;
+top: 1px;
+bottom: 49px;
+left: 760px; 
+
+}
+
+.youtube,
+.vk,
+.pinterest {
+width: 48px;
+height: 48px;
+
+}
+
+.subline {
+    position: absolute;
+width: 660px;
+height: 28px;
+left: 78px;
+top: 667px;
+bottom: 62px;
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 22px;
+font-weight: 400;
+line-height: 28px;
+word-spacing: 19px;
+text-align: left;
+text-transform: uppercase;
+
+}
+
+.button {
+position: absolute;
+width: 256px;
+height: 51px;
+left: 794px;
+right: 50px;
+top: 655px;
+bottom: 51px;
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 22px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+background-color: transparent;
+border: 1px solid rgb(255, 255, 255);
+
+}
