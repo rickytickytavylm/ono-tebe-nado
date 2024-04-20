@@ -1,5 +1,6 @@
 .header {
   position: absolute;
+  display: flex;
   width: 1052px;
   height: 105px;
   left: 24px;
@@ -8,7 +9,7 @@
   bottom: 2831px;
 }
 
-.navbar {
+.header_menu {
   display: flex;
   margin: auto;
   column-gap: 25px;
@@ -22,9 +23,8 @@
   bottom: 39px;
 }
 
-.li::marker {
-  /* list_marker */
-  position: absolute;
+.header_links-list::marker {
+    position: absolute;
   width: 7px;
   height: 7px;
   left: 107px;
@@ -33,21 +33,25 @@
   border: 1px solid rgb(0, 0, 0);
 }
 
-.li1 {
-  color: rgb(0, 0, 0);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0%;
-  text-align: left;
+.header_links-list-item_no-bullit {
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+        letter-spacing: 1%;
+    text-align: left;
+     list-style-type: none;
 }
 
-.li_0 {
-  list-style-type: none;
+.header_links-list {
+    display: flex;
+    margin: auto;
+    column-gap: 25px;
+    list-style-type: circle;
+    position: absolute;
 }
 
-.li2_3 {
+.header_links-list-item {
   color: rgb(0, 0, 0);
   font-family: Raleway;
   font-size: 18px;
@@ -58,14 +62,12 @@
 }
 
 .logo {
-  /* Vector */
+
   position: absolute;
-  width: 129.11px;
-  height: 104.65px;
-  left: 463.03px;
-  top: 1.16px;
-  bottom: -0.81px;
+  max-height: 100%;
+ text-align: center;
 }
+
 
 .contacts {
   position: absolute;
@@ -76,6 +78,12 @@
   top: 5px;
   bottom: 2px;
 }
+
+.address {
+    all: initial;
+   
+
+    }
 
 .number {
   color: rgb(0, 0, 0);
@@ -106,8 +114,6 @@
 font-family: Raleway;
 font-size: 18px;
 font-weight: 400;
-line-height: 24.3px;
-letter-spacing: 0%;
 text-align: left;
 text-decoration: none;
 
@@ -546,11 +552,6 @@ line-height: 24px;
 text-align: left;
 }
 
-address {
-all: initial;
-
-}
-
 .footer {
 
 position: absolute;
@@ -586,7 +587,7 @@ text-align: center;
 }
 
 .socials {
-    
+
 position: absolute;
 display: flex;
 flex-direction: row;
@@ -647,3 +648,18 @@ background-color: transparent;
 border: 1px solid rgb(255, 255, 255);
 
 }
+
+.more {
+
+    position: absolute;
+    bottom: 2px;
+    left:40px;
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
